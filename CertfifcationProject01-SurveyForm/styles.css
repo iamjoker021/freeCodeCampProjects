@@ -1,0 +1,51 @@
+body {
+    font-family: Monospace;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("https://w0.peakpx.com/wallpaper/710/1017/HD-wallpaper-seamless-pattern-with-autumn-leaves-in-orange-beige-brown-colors-perfect-for-gift-paper-drawing-fill-web-page-background-autumn-greeting-cards-2882761-vector-art-at-vecteezy-thumbnail.jpg");
+  background-size: cover; 
+  background-position: center;
+  
+}
+
+.form {
+  background: linear-gradient(to bottom, #ffff66 0%, #ffcccc 100%);
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, p {
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+label.options {
+  margin: unset;
+}
+
+input, select {
+  margin-bottom: 15px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: unset;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1 id="title">Demo Form</h1>
+      <p id="description">This is Demo form to submit in Free Code Camp</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name">Name: </label>
+          <input type="text" id="name" placeholder="Type your name" required />
+          <label id="email-label" for="email">Email: </label>
+          <input type="email" id="email" placeholder="Type your email" required />
+          <label id="number-label" for="number">Age: </label>
+          <input type="number" id="number" min=18 max=120 placeholder="Type your age" required />
+          <label id="gender-label" for="gender">Gender: </label>
+          <label class="options"><input type="radio" name="gender" value="Other" checked> Other</label>
+          <label class="options"><input type="radio" name="gender" value="Male"> Male</label>
+          <label class="options"><input type="radio" name="gender" value="Femal"> Female</label>
+        </fieldset>
+        <fieldset>
+          <label id="name-dropdown" for="dropdown">Are you? </label>
+          <select id="dropdown">
+            <option value="" id="" >(select)</option>
+            <option value="student" id="1">Student</option>
+            <option value="professional" id="2">Professional</option>
+          </select>
+          <label>Skills you have:</label>
+          <label class="options"><input type="checkbox" value="Python"> Python</label>
+          <label class="options"><input name="skill" type="checkbox" value="JavaScript"> JavaScript</label>
+          <label class="options"><input name="skill" type="checkbox" value="HTML"> HTML</label>
+          <label class="options"><input name="skill" type="checkbox" value="CSS"> CSS</label>
+          <label>WHat is you thought about this form?</label>
+          <textarea></textarea>
+        </fieldset>
+        <button id="submit" type="submit">Fake Sumbit</button>
+      </form>
+    </div>
+  </body>
+</html>
